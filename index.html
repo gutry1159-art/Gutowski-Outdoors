@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gutowski Outdoors LLC | Bookkeeping in Wausau, WI</title>
+  <style>
+    :root{
+      --dark:#0f172a;
+      --accent:#16a34a;
+      --light:#f8fafc;
+      --card:#ffffff;
+    }
+    body{margin:0;font-family:Arial, sans-serif;background:var(--light);color:#111}
+    header{background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('banner.jpg');background-size:cover;color:white;padding:80px 20px;text-align:center}
+    .logo{width:120px;margin-bottom:15px}
+    header h1{margin:0;font-size:2.5rem}
+    .btn{display:inline-block;margin-top:20px;padding:12px 20px;background:var(--accent);color:white;text-decoration:none;border-radius:8px;font-weight:bold}
+    nav{background:var(--dark);padding:10px;text-align:center}
+    nav a{color:white;margin:0 15px;text-decoration:none}
+    .container{max-width:1100px;margin:auto;padding:40px 20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+    .card{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.08)}
+    form input, form textarea{width:100%;padding:10px;margin-bottom:10px;border-radius:6px;border:1px solid #ccc}
+    footer{background:var(--dark);color:white;text-align:center;padding:20px}
+  </style>
+</head>
+<body>
+<header>
+  <img src="logo.png" class="logo" alt="Gutowski Outdoors Logo">
+  <h1>Gutowski Outdoors LLC</h1>
+  <p>Bookkeeping Built for Contractors & Outdoor Businesses</p>
+  <a href="#contact" class="btn">Get a Free Quote</a>
+</header>
+
+<nav>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="container" id="services">
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card"><h3>Monthly Bookkeeping</h3><p>Accurate monthly financial tracking.</p></div>
+    <div class="card"><h3>Cleanup</h3><p>Fix messy or behind books fast.</p></div>
+    <div class="card"><h3>Reports</h3><p>Know exactly where your money is going.</p></div>
+  </div>
+</section>
+
+<section class="container" id="contact">
+  <h2>Contact</h2>
+
+  <!-- Formspree form -->
+  <form action="https://formspree.io/f/xzdjwrkb" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Tell me about your business"></textarea>
+    <button class="btn" type="submit">Send Message</button>
+  </form>
+
+  <p style="margin-top:15px;">Or email directly: Accounting@gutowskioutdoors.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Gutowski Outdoors LLC | Wausau, WI</p>
+</footer>
+</body>
+</html>
